@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+*{
+	margin:0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+.land{
+	position: relative;
+	min-height:100vh;
+	background: url(asset/bg.jpg);
+	background-size: cover;
+	background-position: right;
+	text-align: center;
+	align-items: center;
+}
+.container{
+	align-items: center;
+	justify-content: center;
+	color: black;
+	padding: 150px;
+}
+p{
+    font-weight: 600;
+}
+h1{
+    font-size: 3em;
+    font-weight: 600;
+    color: #86554B;
+    text-shadow: 2px 2px black;
+}
+h1 span{
+    font-size: 80px;
+    color: #304B61;
+    font-family: 'Kalam', cursive;
+    text-shadow: 2px 2px black;
+}
+
+@media(max-width: 991px){
+    .container{
+        margin: auto;
+        padding:40px;
+    }
+    h1{
+        font-size: 30px;
+
+    }
+    h1 span{
+        font-size: 58px;
+    }
+}
